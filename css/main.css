@@ -1,0 +1,75 @@
+@import './user-msg.css';
+
+ul{
+    list-style: none;
+}
+
+.book-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: silver;
+    align-items: center;
+    text-align: center;
+}
+
+.book-details {
+    background-color: silver;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.container {
+    background-color:silver;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.img-preview{
+   
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+.book-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    grid-gap: 10px;
+}
+.back-btn{
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+}
+.book-filter-container{
+    text-align: center;
+}
+.main-title{
+    text-align: center;
+}
+
+.review-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reviews-title{
+    font-size: 30px;
+}
+
+
+
+
